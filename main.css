@@ -1,0 +1,132 @@
+ *{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;  
+  box-sizing: border-box;
+}
+body {
+    background: #1A1514;
+    overflow: hidden;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #cccccc;
+}
+.text-title {
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-size:40px;
+}
+.lead {
+margin: 30px 0;
+color: #ffffff;
+font-size: 12px;
+line-height: 22px;
+}
+.fa {
+    color: #A0785B ;
+}
+.py-1 {padding: 1rem 0;}
+.py-2 {padding: 2rem 0;}
+.py-3 {padding: 3rem 0;}
+/* navbar */
+.nav #navbar {
+    padding: 2rem;
+    
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    width: 70px;
+    padding: 1rem;
+    margin-left: 3rem;
+    cursor: pointer;
+}
+.container ul li {
+    display: inline-block;
+  margin-left: 35px;
+  
+}
+.container ul li a {
+    font-size: 12px;
+    padding: 5px 2px;
+}
+.container ul  {
+padding: 2rem 4rem ;
+}
+a:hover {
+    color: #ffffff;
+    border-bottom: 3px solid #A0785B ;
+    
+}
+/* Home */
+
+.container-home {
+    display: grid;
+    grid-template-columns: 2fr 1fr  ;
+}
+
+.home-image img {
+    width: 80%;
+}
+
+.social  {
+   position: absolute;
+   top: 250px;
+   right: 30px;
+   
+}
+.social .fa {
+    display: block;
+    margin: 30px 0;
+}
+.social .fa:hover {
+    color:#cca487 ;
+    transition: all 0.5s ;
+}
+/* home-content */
+.home-content {
+    margin: 2rem;
+    padding: 1rem;
+}
+.bottom-line {
+    
+    background-color: #A0785B ;
+    width: 160px;
+    height: 4px;
+    margin: 30px 8px;
+    
+    
+}
+.input-search {
+    
+    border: 1px solid #4e3829;
+    height: 25px;
+    width: 260px;
+    border-radius: 15px;
+    background: #1A1514;
+}
+input {
+    position: relative;
+    color:#ffffff  ;
+        background: transparent;
+        outline: 0;
+       margin-left: 21px;
+       border: none;
+}
+.input-search .fa {
+    position: absolute;
+    padding-top: 4px;    
+    color: #cccccc;
+    opacity: .6;
+    cursor: pointer;
+}
+
+.input-search,.fa,.bottom-line {
+    padding-left: 10px;
+}
